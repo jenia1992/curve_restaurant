@@ -4,7 +4,7 @@ const initialState = {
    restaurantsArr:[]
    
 
-}
+} 
 
 const reducer = (state = initialState, action) => {
     switch (action.type) {
