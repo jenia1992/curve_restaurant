@@ -1,1 +1,1 @@
-export const UPDATE_USER_INFO="update user info";
+export const DATA_INIT="get api data";

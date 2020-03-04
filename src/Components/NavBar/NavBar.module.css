@@ -1,0 +1,26 @@
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1% 0 0 1%;
+}
+.nav__logo{
+    width: 35%;
+    font-size: 30px;
+    font-weight: 800;
+}
+.nav__links{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 60%;
+}
+.nav__links>li:hover{
+    background-color: yellow;
+}
+.nav__links>li>a{
+    font-weight: 600;
+    text-decoration: none;
+}

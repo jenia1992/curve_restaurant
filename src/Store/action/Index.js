@@ -1,1 +1,1 @@
-export {updateUserInfo} from "./actionToDo"
+export {dataCall} from "./actionRestaurant"
