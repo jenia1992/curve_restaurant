@@ -6,6 +6,21 @@
   height: 40vmin;
   pointer-events: none;
 }
+.wrapper{
+  
+  width: 100%;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.item{
+  padding:8px;
+  color: #555;
+  background-color: white;
+  border-radius: 3px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
