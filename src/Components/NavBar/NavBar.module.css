@@ -1,21 +1,24 @@
 .nav{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     padding: 1% 0 0 1%;
 }
 .nav__logo{
-    width: 35%;
+    width: 30%;
+    padding: 0 0 0 1% ;
     font-size: 30px;
     font-weight: 800;
 }
 .nav__links{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     list-style: none;
-    width: 60%;
+    width: 68%;
+    padding: 0;
 }
 .nav__links>li:hover{
     background-color: yellow;
