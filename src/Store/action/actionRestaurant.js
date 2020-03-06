@@ -13,7 +13,8 @@ export const dataCall = () => {
         let data = {
             url: "https://3.222.204.208/restaurants_list",
             method: "post",
-            data: { "app_key": `${process.env.REACT_APP_CURVE_API_KEY}` },
+            // data: { "app_key": `${process.env.REACT_APP_CURVE_API_KEY}` },
+            data:{"app_key":"ca0200ed-3d8f-417e-b4ec-da4f7e5546f5"},
             headers: "",
             params: ""
         }
@@ -24,7 +25,7 @@ export const dataCall = () => {
                     url: "https://3.222.204.208/restaurant_menu",
                     method: "post",
                     data: {
-                        "app_key": `${process.env.REACT_APP_CURVE_API_KEY}`,
+                        "app_key":"ca0200ed-3d8f-417e-b4ec-da4f7e5546f5",
                         "restaurant_id": `${restaurant.restaurant_id}`,
                     },
                     headers: "",
