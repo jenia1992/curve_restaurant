@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/curve_restaurant/precache-manifest.42a89f7569f9062cd8d19ae348f6e3ee.js"
+  "/curve_restaurant/precache-manifest.7420a7a1baaa5d3a70285105e390a546.js"
 );
 
 self.addEventListener('message', (event) => {

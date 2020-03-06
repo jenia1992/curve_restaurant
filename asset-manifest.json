@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/curve_restaurant/static/css/main.a978f83e.chunk.css",
-    "main.js": "/curve_restaurant/static/js/main.2acec4a1.chunk.js",
-    "main.js.map": "/curve_restaurant/static/js/main.2acec4a1.chunk.js.map",
+    "main.js": "/curve_restaurant/static/js/main.d8e92e9e.chunk.js",
+    "main.js.map": "/curve_restaurant/static/js/main.d8e92e9e.chunk.js.map",
     "runtime-main.js": "/curve_restaurant/static/js/runtime-main.91692255.js",
     "runtime-main.js.map": "/curve_restaurant/static/js/runtime-main.91692255.js.map",
     "static/js/2.945bfa5e.chunk.js": "/curve_restaurant/static/js/2.945bfa5e.chunk.js",
     "static/js/2.945bfa5e.chunk.js.map": "/curve_restaurant/static/js/2.945bfa5e.chunk.js.map",
     "index.html": "/curve_restaurant/index.html",
-    "precache-manifest.42a89f7569f9062cd8d19ae348f6e3ee.js": "/curve_restaurant/precache-manifest.42a89f7569f9062cd8d19ae348f6e3ee.js",
+    "precache-manifest.7420a7a1baaa5d3a70285105e390a546.js": "/curve_restaurant/precache-manifest.7420a7a1baaa5d3a70285105e390a546.js",
     "service-worker.js": "/curve_restaurant/service-worker.js",
     "static/css/main.a978f83e.chunk.css.map": "/curve_restaurant/static/css/main.a978f83e.chunk.css.map",
     "static/js/2.945bfa5e.chunk.js.LICENSE.txt": "/curve_restaurant/static/js/2.945bfa5e.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.91692255.js",
     "static/js/2.945bfa5e.chunk.js",
     "static/css/main.a978f83e.chunk.css",
-    "static/js/main.2acec4a1.chunk.js"
+    "static/js/main.d8e92e9e.chunk.js"
   ]
 }
