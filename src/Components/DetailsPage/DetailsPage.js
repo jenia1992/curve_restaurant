@@ -8,14 +8,6 @@ class DetailsPage extends Component {
             restaurant_name:"Please choose a restaurant"
         }
     }
-    componentDidMount(){
-        
-        
-        console.log(this.props.restaurant);
-        console.log(this.props.menuNames);
-        
-        
-    }
     render() {
         if(this.props.restaurant){
             return (
@@ -47,15 +39,11 @@ const mapStateToProps = (state, ownProps) => {
                 menuNames.push(menu.menu_name)
             }
         })
-    }
-      
-        console.log(state);
-        
+    }       
     return {
         restaurant,
         menuNames,
         colors:state.restaurants.colors,
-     
     }
 }
 export default connect(mapStateToProps)(DetailsPage);
