@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c63ba94709ddfd5f17379213ca3cb351",
+    "revision": "ac07fab7a132a58092dd8dd14ce89a48",
     "url": "/curve_restaurant/index.html"
   },
   {
-    "revision": "dd694afe324573c96cd0",
+    "revision": "df8e1aff276fe4aea802",
     "url": "/curve_restaurant/static/css/main.a978f83e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/curve_restaurant/static/js/2.945bfa5e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dd694afe324573c96cd0",
-    "url": "/curve_restaurant/static/js/main.d8e92e9e.chunk.js"
+    "revision": "df8e1aff276fe4aea802",
+    "url": "/curve_restaurant/static/js/main.a326d399.chunk.js"
   },
   {
     "revision": "0c9cef0f516c1d4a2229",
