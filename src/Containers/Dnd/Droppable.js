@@ -1,26 +1,30 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Droppable extends Component {
-    dropHandler = (event) =>{
+const Droppable =(props)=> {
+    const dropHandler = (event) =>{
         event.preventDefault()
         const data = event.dataTransfer.getData('transfer');
+        console.log(document.getElementById(data));
+        
         event.target.appendChild(document.getElementById(data))
     }
-    allowDropHandler=(event)=>{ 
+    const allowDropHandler=(event)=>{ 
         event.preventDefault()
     }
-    render() {
+    
         return (
             <div 
-            id={this.props.id} 
-            onDrop={this.dropHandler}
-            onDragOver={this.allowDropHandler}
-            style={this.props.style}
+            className={props.className}
+            id={props.id} 
+            onDrop={dropHandler}
+            onDragOver={allowDropHandler}
+            style={props.style}
             >
-                {this.props.children}
+                <h1>{props.id}</h1>
+                {props.children}
             </div>
         );
-    }
+    
 }
 
 export default Droppable;

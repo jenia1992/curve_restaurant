@@ -1,0 +1,32 @@
+
+.restaurant__List{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.restaurant__List>li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    min-height: 90px;
+    padding: 1.5%;
+    font-size: 24px;
+    text-align: center;
+    
+}
+.restaurant__List>li:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .restaurant__List>li{
+        width: 100%;
+        
+    }
+}

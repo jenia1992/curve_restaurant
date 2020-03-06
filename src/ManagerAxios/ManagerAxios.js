@@ -39,3 +39,18 @@ export const getDataFromServer=(data)=>{
     }
 
 }
+
+export const jsonHandler=(jsonData)=>{
+    try {
+        //Fix the Json replace the NaN without brackets
+    const result = JSON.parse(jsonData.replace(/\bNaN\b/g, '"***NaN***"'), (key, value)=> {
+        return value === "***NaN***" ? NaN : value;
+    });
+    // console.log(result.menu_item);
+    return result
+    } catch (error) {
+        // empty array
+        // console.log(jsonData.menu_item);
+        return jsonData
+    }
+}

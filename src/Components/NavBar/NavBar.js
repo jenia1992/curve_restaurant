@@ -7,8 +7,8 @@ const NavBar = () => {
             <div className={styles.nav__logo}>Logo</div>
             <ul className={styles.nav__links}>
                 <li><Link to={"/"}>Home</Link></li>
-                <li><Link to={"/details"}>Details</Link></li>
-                <li><Link to={"/dnd"}>About</Link></li>
+                <li><Link to={"/details/:restaurant_id"}>Details</Link></li>
+                <li><Link style={{pointerEvents: "none"}} to={"/dnd"} >About</Link></li>
             </ul>
         </nav>
     );

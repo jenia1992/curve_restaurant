@@ -1,8 +1,9 @@
 .wrapper{
     width: 100%;
-    padding: 32px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 .item{
@@ -10,4 +11,22 @@
     color: #555;
     background-color: white;
     border-radius: 3px;
+}
+.droppableStyle{
+    width:25%;
+    height:400px;
+    margin:1%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .droppableStyle{
+        width: 40%;
+        
+    }
+}
+@media only screen and (max-width: 600px) {
+    .droppableStyle{
+        width: 100%;
+        
+    }
 }

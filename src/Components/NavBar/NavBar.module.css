@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 1% 0 0 1%;
+    background-color: grey;
 }
 .nav__logo{
     width: 30%;

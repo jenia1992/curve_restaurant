@@ -4,6 +4,7 @@ import { Switch, Route } from "react-router-dom";
 import DndTest from './Containers/Dnd/DndTest'
 import MainPage from './Components/MainPage/MainPage';
 import DetailsPage from './Components/DetailsPage/DetailsPage';
+import Loader from './Components/Loader/Loader'
 import { connect } from 'react-redux'
 import * as actionTypes from './Store/action/Index';
 import {getDataFromServer} from './ManagerAxios/ManagerAxios';
@@ -18,11 +19,11 @@ class App extends Component {
 
   }
   render() {
-
+    
     const route = (
       <Switch>
-        <Route exact path="/" component={MainPage} />
-        <Route path="/details" component={DetailsPage} />
+        {this.props.isLoaded ? <Route exact path="/" component={MainPage} /> : <Route exact path="/" component={()=><Loader/>}/>}
+        <Route path="/details/:restaurant_id" component={DetailsPage} />
         <Route path="/dnd" component={DndTest} />
 
       </Switch>
@@ -35,15 +36,15 @@ class App extends Component {
     );
   }
 }
-// const mapStateToProps =state=>{
-//   return {
-
-//   }
-// }
+const mapStateToProps =state=>{
+  return {
+    isLoaded:state.restaurants.isLoaded
+  }
+}
 const mapDispatchToProps = dispatch => {
   return {
     initDataFromApi: () => { dispatch(actionTypes.dataCall()) }
   }
 }
 
-export default connect(null, mapDispatchToProps)(App);
+export default connect(mapStateToProps, mapDispatchToProps)(App);
